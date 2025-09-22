@@ -1,0 +1,1700 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Van A",
+      "email": "a@example.com",
+      "password": "123456",
+      "token": "token_abc123"
+    },
+    {
+      "id": 2,
+      "fullName": "Tran Thi B",
+      "email": "b@example.com",
+      "password": "654321",
+      "token": "token_xyz789"
+    },
+    {
+      "fullName": "Đặng Xuân Phúc",
+      "email": "phucchimto@gmail.com",
+      "password": "123",
+      "token": "token1758393248305",
+      "id": 4
+    },
+    {
+      "fullName": "Nguyễn Thị Thảo Phương",
+      "email": "phucphuong@gmail.com",
+      "password": "123",
+      "token": "token1758475404372",
+      "id": 5
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Cảm nghĩ của sinh viên về đại học khoa học"
+    },
+    {
+      "id": 2,
+      "name": "Tình yêu của Xuân Phúc"
+    },
+    {
+      "id": 3,
+      "name": "Bí kiếp tán gái"
+    },
+    {
+      "id": 4,
+      "name": "Những câu nói của con gái khiến con trai rung động"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "Bạn cảm thấy thế nào về môi trường học tập tại trường Đại học Khoa học?",
+      "answers": [
+        "Thân thiện và cởi mở",
+        "Áp lực và căng thẳng",
+        "Bình thường",
+        "Không quan tâm"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "Điều gì khiến bạn ấn tượng nhất ở Đại học Khoa học?",
+      "answers": [
+        "Thầy cô tận tâm",
+        "Cơ sở vật chất",
+        "Bạn bè dễ mến",
+        "Các hoạt động ngoại khóa"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "Bạn thường học nhóm ở đâu trong trường?",
+      "answers": [
+        "Thư viện",
+        "Quán cà phê",
+        "Ký túc xá",
+        "Lớp học"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Bạn đánh giá thế nào về chất lượng giảng dạy của giảng viên?",
+      "answers": [
+        "Rất tốt",
+        "Khá tốt",
+        "Trung bình",
+        "Chưa hài lòng"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Hoạt động nào giúp bạn gắn bó với trường hơn?",
+      "answers": [
+        "Hoạt động câu lạc bộ",
+        "Hội thao",
+        "Các cuộc thi học thuật",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Bạn thường làm gì khi stress trong học tập?",
+      "answers": [
+        "Ngủ",
+        "Đi chơi với bạn",
+        "Tham gia thể thao",
+        "Ăn uống"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Điều gì bạn mong muốn trường cải thiện?",
+      "answers": [
+        "Thêm cơ sở vật chất",
+        "Nâng cao chất lượng giảng dạy",
+        "Tổ chức nhiều hoạt động hơn",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Bạn thấy thư viện của trường thế nào?",
+      "answers": [
+        "Đầy đủ tài liệu",
+        "Không gian yên tĩnh",
+        "Khá hạn chế",
+        "Chưa từng sử dụng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "question": "Bạn thích nhất món ăn nào ở căn tin?",
+      "answers": [
+        "Cơm",
+        "Bún",
+        "Phở",
+        "Mì"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "question": "Bạn đánh giá thế nào về cơ hội việc làm sau khi học ở trường?",
+      "answers": [
+        "Rất khả quan",
+        "Khá ổn",
+        "Còn hạn chế",
+        "Không chắc chắn"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topicId": 1,
+      "question": "Bạn tham gia bao nhiêu câu lạc bộ?",
+      "answers": [
+        "0",
+        "1",
+        "2",
+        "Nhiều hơn 2"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "topicId": 1,
+      "question": "Bạn nghĩ gì về việc học online?",
+      "answers": [
+        "Tiện lợi",
+        "Khó tiếp thu",
+        "Không hiệu quả",
+        "Bình thường"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "topicId": 1,
+      "question": "Điều bạn thích nhất khi là sinh viên?",
+      "answers": [
+        "Sự tự do",
+        "Bạn bè mới",
+        "Kiến thức",
+        "Hoạt động ngoại khóa"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "topicId": 1,
+      "question": "Bạn đi học bằng phương tiện gì?",
+      "answers": [
+        "Xe máy",
+        "Xe buýt",
+        "Xe đạp",
+        "Đi bộ"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 15,
+      "topicId": 1,
+      "question": "Bạn thường học bài vào lúc nào?",
+      "answers": [
+        "Buổi sáng",
+        "Buổi trưa",
+        "Buổi tối",
+        "Khuya"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 16,
+      "topicId": 1,
+      "question": "Bạn có thường xuyên đến thư viện không?",
+      "answers": [
+        "Có",
+        "Thỉnh thoảng",
+        "Hiếm khi",
+        "Không bao giờ"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 17,
+      "topicId": 1,
+      "question": "Bạn mong muốn học thêm kỹ năng gì ở trường?",
+      "answers": [
+        "Ngoại ngữ",
+        "Kỹ năng mềm",
+        "Tin học",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 18,
+      "topicId": 1,
+      "question": "Bạn đánh giá thế nào về các kỳ thi?",
+      "answers": [
+        "Khó",
+        "Dễ",
+        "Bình thường",
+        "Không công bằng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 19,
+      "topicId": 1,
+      "question": "Bạn thích tham gia hoạt động nào nhất?",
+      "answers": [
+        "Thể thao",
+        "Nghệ thuật",
+        "Học thuật",
+        "Tình nguyện"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 20,
+      "topicId": 1,
+      "question": "Bạn có dự định học cao học không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chưa quyết định",
+        "Tùy điều kiện"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 21,
+      "topicId": 2,
+      "question": "Xuân Phúc thường nghĩ về tình yêu vào lúc nào?",
+      "answers": [
+        "Buổi sáng",
+        "Buổi trưa",
+        "Buổi tối",
+        "Mọi lúc"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 22,
+      "topicId": 2,
+      "question": "Điều gì làm trái tim Xuân Phúc rung động?",
+      "answers": [
+        "Một nụ cười",
+        "Một ánh mắt",
+        "Một câu nói dễ thương",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 23,
+      "topicId": 2,
+      "question": "Xuân Phúc thích kiểu tình yêu nào?",
+      "answers": [
+        "Lãng mạn",
+        "Thực tế",
+        "Âm thầm",
+        "Mãnh liệt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 24,
+      "topicId": 2,
+      "question": "Phúc sẽ làm gì khi nhớ người yêu?",
+      "answers": [
+        "Nhắn tin",
+        "Gọi điện",
+        "Đi gặp trực tiếp",
+        "Im lặng chịu đựng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 25,
+      "topicId": 2,
+      "question": "Phúc quan niệm tình yêu cần nhất điều gì?",
+      "answers": [
+        "Tin tưởng",
+        "Lãng mạn",
+        "Sự chăm sóc",
+        "Thời gian bên nhau"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "topicId": 2,
+      "question": "Phúc sẽ làm gì vào ngày kỷ niệm?",
+      "answers": [
+        "Mua quà",
+        "Đi chơi",
+        "Viết thư",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 27,
+      "topicId": 2,
+      "question": "Phúc nghĩ gì khi nghe bài hát tình yêu?",
+      "answers": [
+        "Nhớ người ấy",
+        "Thấy buồn",
+        "Thấy vui",
+        "Không cảm xúc"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "topicId": 2,
+      "question": "Nếu người yêu giận, Phúc sẽ?",
+      "answers": [
+        "Xin lỗi",
+        "Dỗ dành",
+        "Làm quà bất ngờ",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 29,
+      "topicId": 2,
+      "question": "Phúc thích hẹn hò ở đâu?",
+      "answers": [
+        "Quán cà phê",
+        "Công viên",
+        "Rạp phim",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 30,
+      "topicId": 2,
+      "question": "Phúc muốn tỏ tình bằng cách nào?",
+      "answers": [
+        "Nói trực tiếp",
+        "Viết thư",
+        "Nhắn tin",
+        "Gửi quà"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 31,
+      "topicId": 2,
+      "question": "Phúc nghĩ thế nào về tình yêu xa?",
+      "answers": [
+        "Khó duy trì",
+        "Cần nhiều niềm tin",
+        "Không thể",
+        "Bình thường"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 32,
+      "topicId": 2,
+      "question": "Phúc mong muốn món quà gì từ người yêu?",
+      "answers": [
+        "Một bức thư tay",
+        "Một cuốn sách",
+        "Một chiếc áo",
+        "Bất kỳ điều gì từ trái tim"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 33,
+      "topicId": 2,
+      "question": "Phúc sẽ làm gì khi thấy người yêu buồn?",
+      "answers": [
+        "An ủi",
+        "Lắng nghe",
+        "Cùng đi chơi",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 34,
+      "topicId": 2,
+      "question": "Phúc thích nghe câu nói nào từ người yêu?",
+      "answers": [
+        "Anh là tất cả của em",
+        "Em nhớ anh",
+        "Anh là chỗ dựa của em",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 35,
+      "topicId": 2,
+      "question": "Phúc nghĩ tình yêu cần gì để bền vững?",
+      "answers": [
+        "Niềm tin",
+        "Sự chia sẻ",
+        "Sự quan tâm",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 36,
+      "topicId": 2,
+      "question": "Phúc muốn cùng người yêu làm gì nhất?",
+      "answers": [
+        "Đi du lịch",
+        "Cùng học tập",
+        "Cùng nấu ăn",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 37,
+      "topicId": 2,
+      "question": "Điều gì khiến Phúc cảm động nhất?",
+      "answers": [
+        "Một cái ôm bất ngờ",
+        "Một tin nhắn dài",
+        "Một món quà nhỏ",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 38,
+      "topicId": 2,
+      "question": "Phúc nghĩ sao khi cãi nhau với người yêu?",
+      "answers": [
+        "Chuyện bình thường",
+        "Cần nói chuyện thẳng thắn",
+        "Phải xin lỗi ngay",
+        "Không bao giờ cãi nhau"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 39,
+      "topicId": 2,
+      "question": "Phúc mong chờ điều gì trong tương lai tình yêu?",
+      "answers": [
+        "Kết hôn",
+        "Đi du lịch cùng nhau",
+        "Sống hạnh phúc",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 40,
+      "topicId": 2,
+      "question": "Nếu người yêu bất ngờ tỏ tình lại, Phúc sẽ?",
+      "answers": [
+        "Ngạc nhiên",
+        "Vui mừng",
+        "Hạnh phúc",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 41,
+      "topicId": 3,
+      "question": "Điều gì là quan trọng nhất khi bắt chuyện với một cô gái?",
+      "answers": [
+        "Nụ cười",
+        "Ngoại hình",
+        "Trang phục",
+        "Tiền bạc"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "topicId": 3,
+      "question": "Câu mở đầu nào dễ gây thiện cảm nhất?",
+      "answers": [
+        "Chào cậu, mình có thể làm quen không?",
+        "Đi đâu đó?",
+        "Ê em",
+        "Cho xin số đi"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 43,
+      "topicId": 3,
+      "question": "Khi muốn tạo ấn tượng, nên làm gì?",
+      "answers": [
+        "Khoe khoang",
+        "Lắng nghe",
+        "Im lặng",
+        "Chọc ghẹo"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 44,
+      "topicId": 3,
+      "question": "Một buổi hẹn hò lý tưởng nên có?",
+      "answers": [
+        "Không khí thoải mái",
+        "Một bó hoa",
+        "Một lời khen",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 45,
+      "topicId": 3,
+      "question": "Điều gì tuyệt đối không nên làm khi tán gái?",
+      "answers": [
+        "Nói dối",
+        "Thành thật",
+        "Quan tâm",
+        "Vui vẻ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 46,
+      "topicId": 3,
+      "question": "Món quà nào đơn giản nhưng ý nghĩa?",
+      "answers": [
+        "Một bông hoa",
+        "Một chiếc nhẫn",
+        "Một túi hàng hiệu",
+        "Một chiếc xe"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "topicId": 3,
+      "question": "Điều gì giúp một chàng trai trở nên hấp dẫn?",
+      "answers": [
+        "Tự tin",
+        "Nhiều tiền",
+        "Xe đẹp",
+        "Quần áo sang"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "topicId": 3,
+      "question": "Thời điểm tốt nhất để tỏ tình là?",
+      "answers": [
+        "Khi mới quen",
+        "Khi đã thân",
+        "Ngay lần gặp đầu",
+        "Không cần tỏ tình"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 49,
+      "topicId": 3,
+      "question": "Điều con gái thích nhất ở một chàng trai là?",
+      "answers": [
+        "Biết lắng nghe",
+        "Nói nhiều",
+        "Hào phóng",
+        "Nghiêm túc quá mức"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 50,
+      "topicId": 3,
+      "question": "Cách nào để duy trì cuộc trò chuyện?",
+      "answers": [
+        "Đặt câu hỏi mở",
+        "Kể chuyện bản thân",
+        "Nói liên tục",
+        "Im lặng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 51,
+      "topicId": 3,
+      "question": "Một lời khen hay nhất khi gặp cô ấy?",
+      "answers": [
+        "Bạn thật dễ thương",
+        "Bạn xinh quá",
+        "Bạn đẹp như hotgirl",
+        "Bạn cute phô mai que"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 52,
+      "topicId": 3,
+      "question": "Khi đi chơi lần đầu, địa điểm nào hợp lý nhất?",
+      "answers": [
+        "Quán cà phê",
+        "Khách sạn",
+        "Nhà riêng",
+        "Phòng trọ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 53,
+      "topicId": 3,
+      "question": "Điều gì khiến cô gái cảm thấy an toàn?",
+      "answers": [
+        "Sự chân thành",
+        "Xe đẹp",
+        "Nhiều tiền",
+        "Nói khoác"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 54,
+      "topicId": 3,
+      "question": "Nếu cô ấy không trả lời tin nhắn, bạn nên?",
+      "answers": [
+        "Nhắn tiếp tục",
+        "Gọi liên tục",
+        "Kiên nhẫn chờ",
+        "Chặn luôn"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 55,
+      "topicId": 3,
+      "question": "Thái độ nào dễ làm hỏng buổi hẹn?",
+      "answers": [
+        "Đến muộn",
+        "Ăn nói thô lỗ",
+        "Không để ý",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 56,
+      "topicId": 3,
+      "question": "Yếu tố quan trọng nhất để tán gái thành công?",
+      "answers": [
+        "Tự tin",
+        "Giàu có",
+        "Đẹp trai",
+        "Nổi tiếng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 57,
+      "topicId": 3,
+      "question": "Khi hẹn hò, nên chuẩn bị gì?",
+      "answers": [
+        "Trang phục gọn gàng",
+        "Một nụ cười",
+        "Một vài chủ đề trò chuyện",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 58,
+      "topicId": 3,
+      "question": "Con gái ấn tượng nhất với điều gì?",
+      "answers": [
+        "Sự chân thành",
+        "Tiền bạc",
+        "Ngoại hình",
+        "Xe cộ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 59,
+      "topicId": 3,
+      "question": "Khi muốn làm quen, điều đầu tiên bạn nên làm là?",
+      "answers": [
+        "Cười thân thiện",
+        "Chào hỏi",
+        "Giới thiệu bản thân",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 60,
+      "topicId": 3,
+      "question": "Điều gì chứng tỏ bạn thật lòng?",
+      "answers": [
+        "Quan tâm chân thành",
+        "Nói dối ngọt ngào",
+        "Chi tiền nhiều",
+        "Hứa hẹn suông"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 61,
+      "topicId": 4,
+      "question": "Câu nói nào khiến con trai thấy ấm lòng?",
+      "answers": [
+        "Anh ăn cơm chưa?",
+        "Anh đang ở đâu?",
+        "Anh khỏe không?",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 62,
+      "topicId": 4,
+      "question": "Câu nói 'Em tin anh' thể hiện điều gì?",
+      "answers": [
+        "Niềm tin",
+        "Sự quan tâm",
+        "Sự ngây thơ",
+        "Không ý nghĩa gì"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 63,
+      "topicId": 4,
+      "question": "Câu nào làm con trai cảm động nhất?",
+      "answers": [
+        "Em tự hào về anh",
+        "Anh thật tuyệt",
+        "Anh giỏi quá",
+        "Anh dễ thương quá"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 64,
+      "topicId": 4,
+      "question": "Câu 'Em nhớ anh' có ý nghĩa gì?",
+      "answers": [
+        "Thể hiện tình cảm",
+        "Thử lòng",
+        "Không có gì",
+        "Nói cho vui"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 65,
+      "topicId": 4,
+      "question": "Câu 'Anh là chỗ dựa của em' gợi lên cảm xúc gì?",
+      "answers": [
+        "Tự hào",
+        "Trách nhiệm",
+        "Hạnh phúc",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 66,
+      "topicId": 4,
+      "question": "Câu nào làm con trai thấy mình quan trọng?",
+      "answers": [
+        "Anh là tất cả của em",
+        "Anh chỉ là bạn",
+        "Anh bình thường thôi",
+        "Anh chẳng đặc biệt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 67,
+      "topicId": 4,
+      "question": "Câu 'Có anh, em thấy an toàn' khiến con trai?",
+      "answers": [
+        "Thấy hãnh diện",
+        "Thấy trách nhiệm",
+        "Thấy hạnh phúc",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 68,
+      "topicId": 4,
+      "question": "Câu nào thường được con trai mong chờ?",
+      "answers": [
+        "Em yêu anh",
+        "Em nhớ anh",
+        "Em tin anh",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 69,
+      "topicId": 4,
+      "question": "Câu 'Anh là duy nhất với em' thể hiện?",
+      "answers": [
+        "Sự thủy chung",
+        "Sự ngọt ngào",
+        "Sự giả dối",
+        "Không ý nghĩa"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 70,
+      "topicId": 4,
+      "question": "Câu 'Anh mệt không?' thể hiện gì?",
+      "answers": [
+        "Sự quan tâm",
+        "Sự tò mò",
+        "Nói cho có",
+        "Không có gì đặc biệt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 71,
+      "topicId": 4,
+      "question": "Câu 'Em luôn bên anh' khiến con trai thấy?",
+      "answers": [
+        "An tâm",
+        "Hạnh phúc",
+        "Có động lực",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 72,
+      "topicId": 4,
+      "question": "Câu nào thể hiện sự tin tưởng?",
+      "answers": [
+        "Em tin anh",
+        "Anh giỏi thật",
+        "Anh đẹp trai",
+        "Anh vui tính quá"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 73,
+      "topicId": 4,
+      "question": "Câu 'Em hạnh phúc khi có anh' mang ý nghĩa?",
+      "answers": [
+        "Biết ơn",
+        "Thỏa mãn",
+        "Vui vẻ",
+        "Bình thường"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 74,
+      "topicId": 4,
+      "question": "Câu 'Anh là người đặc biệt' tạo cảm giác?",
+      "answers": [
+        "Tự hào",
+        "Được yêu thương",
+        "Được tôn trọng",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 75,
+      "topicId": 4,
+      "question": "Câu nào khiến con trai cảm thấy được yêu?",
+      "answers": [
+        "Em yêu anh",
+        "Anh là duy nhất",
+        "Anh quan trọng với em",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 76,
+      "topicId": 4,
+      "question": "Câu 'Anh cố gắng ít thôi, em thương anh' mang ý nghĩa?",
+      "answers": [
+        "Quan tâm",
+        "Khuyên nhủ",
+        "Thương yêu",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 77,
+      "topicId": 4,
+      "question": "Câu nào có thể khiến con trai rơi nước mắt?",
+      "answers": [
+        "Anh là cả thế giới của em",
+        "Em sẽ luôn ở bên anh",
+        "Em hạnh phúc vì có anh",
+        "Tất cả đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 78,
+      "topicId": 4,
+      "question": "Câu 'Anh đừng lo, có em đây' tạo cảm giác?",
+      "answers": [
+        "An toàn",
+        "Được yêu thương",
+        "Có chỗ dựa",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 79,
+      "topicId": 4,
+      "question": "Câu 'Em sẽ chờ anh' thể hiện?",
+      "answers": [
+        "Sự kiên nhẫn",
+        "Sự thủy chung",
+        "Sự chờ đợi",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 80,
+      "topicId": 4,
+      "question": "Câu 'Anh là người em tìm kiếm bấy lâu' mang ý nghĩa?",
+      "answers": [
+        "Định mệnh",
+        "Tình yêu chân thành",
+        "Sự lựa chọn",
+        "Cả 3 đều đúng"
+      ],
+      "correctAnswer": 3
+    }
+  ],
+  "userAnswers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "topicId": 1,
+      "questionId": 1,
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "topicId": 1,
+      "questionId": 2,
+      "answer": 1
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 1,
+      "answer": 0,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 2,
+      "answer": 2,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 1,
+      "answer": -1,
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 2,
+      "answer": 0,
+      "id": 6
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 1,
+      "answer": 0,
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 3,
+      "answer": 0,
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 4,
+      "answer": 1,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 1,
+      "answer": 0,
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 2,
+      "answer": -1,
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 4,
+      "answer": 0,
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 5,
+      "answer": -1,
+      "id": 13
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 6,
+      "answer": -1,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 7,
+      "answer": -1,
+      "id": 15
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 8,
+      "answer": -1,
+      "id": 16
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 9,
+      "answer": -1,
+      "id": 17
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 1,
+      "answer": 0,
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 2,
+      "answer": 3,
+      "id": 19
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 3,
+      "answer": 0,
+      "id": 20
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 4,
+      "answer": 0,
+      "id": 21
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 5,
+      "answer": 3,
+      "id": 22
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 6,
+      "answer": 0,
+      "id": 23
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 7,
+      "answer": 1,
+      "id": 24
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 8,
+      "answer": 1,
+      "id": 25
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 9,
+      "answer": 0,
+      "id": 26
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 10,
+      "answer": 0,
+      "id": 27
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 11,
+      "answer": 2,
+      "id": 28
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 12,
+      "answer": 3,
+      "id": 29
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 13,
+      "answer": 0,
+      "id": 30
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 14,
+      "answer": 1,
+      "id": 31
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 15,
+      "answer": 0,
+      "id": 32
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 16,
+      "answer": 0,
+      "id": 33
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 17,
+      "answer": 2,
+      "id": 34
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 18,
+      "answer": 2,
+      "id": 35
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 19,
+      "answer": 0,
+      "id": 36
+    },
+    {
+      "userId": 4,
+      "topicId": 1,
+      "questionId": 20,
+      "answer": 1,
+      "id": 37
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 21,
+      "answer": 0,
+      "id": 38
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 22,
+      "answer": 0,
+      "id": 39
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 23,
+      "answer": 0,
+      "id": 40
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 24,
+      "answer": 0,
+      "id": 41
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 25,
+      "answer": 0,
+      "id": 42
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 26,
+      "answer": 0,
+      "id": 43
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 27,
+      "answer": 0,
+      "id": 44
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 28,
+      "answer": 0,
+      "id": 45
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 29,
+      "answer": 0,
+      "id": 46
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 30,
+      "answer": 0,
+      "id": 47
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 31,
+      "answer": 0,
+      "id": 48
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 32,
+      "answer": 0,
+      "id": 49
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 33,
+      "answer": 0,
+      "id": 50
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 34,
+      "answer": 0,
+      "id": 51
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 35,
+      "answer": 0,
+      "id": 52
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 36,
+      "answer": 0,
+      "id": 53
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 37,
+      "answer": 0,
+      "id": 54
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 38,
+      "answer": 0,
+      "id": 55
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 39,
+      "answer": 0,
+      "id": 56
+    },
+    {
+      "userId": 4,
+      "topicId": 2,
+      "questionId": 40,
+      "answer": 0,
+      "id": 57
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 41,
+      "answer": 0,
+      "id": 58
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 42,
+      "answer": 0,
+      "id": 59
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 41,
+      "answer": 0,
+      "id": 60
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 42,
+      "answer": 0,
+      "id": 61
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 43,
+      "answer": 0,
+      "id": 62
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 44,
+      "answer": 0,
+      "id": 63
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 45,
+      "answer": 1,
+      "id": 64
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 46,
+      "answer": 0,
+      "id": 65
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 47,
+      "answer": 1,
+      "id": 66
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 48,
+      "answer": 0,
+      "id": 67
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 49,
+      "answer": 0,
+      "id": 68
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 50,
+      "answer": 0,
+      "id": 69
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 51,
+      "answer": 0,
+      "id": 70
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 52,
+      "answer": 1,
+      "id": 71
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 53,
+      "answer": 1,
+      "id": 72
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 54,
+      "answer": 1,
+      "id": 73
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 55,
+      "answer": 1,
+      "id": 74
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 56,
+      "answer": 1,
+      "id": 75
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 57,
+      "answer": 0,
+      "id": 76
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 58,
+      "answer": 1,
+      "id": 77
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 59,
+      "answer": 0,
+      "id": 78
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 60,
+      "answer": 0,
+      "id": 79
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 41,
+      "answer": 2,
+      "id": 80
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 42,
+      "answer": 0,
+      "id": 81
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 43,
+      "answer": 0,
+      "id": 82
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 44,
+      "answer": 0,
+      "id": 83
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 45,
+      "answer": 0,
+      "id": 84
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 46,
+      "answer": 0,
+      "id": 85
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 47,
+      "answer": 0,
+      "id": 86
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 48,
+      "answer": 0,
+      "id": 87
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 49,
+      "answer": 0,
+      "id": 88
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 51,
+      "answer": 0,
+      "id": 89
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 52,
+      "answer": 0,
+      "id": 90
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 53,
+      "answer": 0,
+      "id": 91
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 54,
+      "answer": 0,
+      "id": 92
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 55,
+      "answer": 0,
+      "id": 93
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 56,
+      "answer": 0,
+      "id": 94
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 57,
+      "answer": 0,
+      "id": 95
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 58,
+      "answer": 0,
+      "id": 96
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 59,
+      "answer": 0,
+      "id": 97
+    },
+    {
+      "userId": 4,
+      "topicId": 3,
+      "questionId": 60,
+      "answer": 0,
+      "id": 98
+    }
+  ]
+}
